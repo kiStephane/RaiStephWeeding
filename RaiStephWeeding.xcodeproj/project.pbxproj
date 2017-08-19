@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253AF922B6A0396930B8FCBF /* Pods_RaiStephWeedingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 869BDE39C176EA85A8102052 /* Pods_RaiStephWeedingTests.framework */; };
+		EF8BB753FEABE55104D7A993 /* Pods_RaiStephWeeding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED6E48EA394B69761790984 /* Pods_RaiStephWeeding.framework */; };
+		FF59A09D1F47AD0300A894D1 /* OurStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59A09C1F47AD0300A894D1 /* OurStoryViewController.swift */; };
+		FF59A0A11F47B01400A894D1 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59A0A01F47B01400A894D1 /* MenuTableViewController.swift */; };
 		FF8CC2B31F465B620037F4E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CC2B21F465B620037F4E5 /* AppDelegate.swift */; };
-		FF8CC2B51F465B620037F4E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CC2B41F465B620037F4E5 /* ViewController.swift */; };
 		FF8CC2B81F465B620037F4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8CC2B61F465B620037F4E5 /* Main.storyboard */; };
 		FF8CC2BA1F465B620037F4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8CC2B91F465B620037F4E5 /* Assets.xcassets */; };
 		FF8CC2BD1F465B620037F4E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8CC2BB1F465B620037F4E5 /* LaunchScreen.storyboard */; };
 		FF8CC2C81F465B630037F4E5 /* RaiStephWeedingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CC2C71F465B630037F4E5 /* RaiStephWeedingTests.swift */; };
+		FF8CC2D31F4660F20037F4E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CC2D21F4660F20037F4E5 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		869BDE39C176EA85A8102052 /* Pods_RaiStephWeedingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaiStephWeedingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A4CC9C2ADB7CF16D5FC435 /* Pods-RaiStephWeedingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiStephWeedingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaiStephWeedingTests/Pods-RaiStephWeedingTests.release.xcconfig"; sourceTree = "<group>"; };
+		AED6E48EA394B69761790984 /* Pods_RaiStephWeeding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaiStephWeeding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFA7D04A67397D471AE1AAE /* Pods-RaiStephWeeding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiStephWeeding.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaiStephWeeding/Pods-RaiStephWeeding.release.xcconfig"; sourceTree = "<group>"; };
+		C0FEFCFC1750973B33CDEE3C /* Pods-RaiStephWeeding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiStephWeeding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaiStephWeeding/Pods-RaiStephWeeding.debug.xcconfig"; sourceTree = "<group>"; };
+		E2E3913573EB8B4E859B22BD /* Pods-RaiStephWeedingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiStephWeedingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaiStephWeedingTests/Pods-RaiStephWeedingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF59A09C1F47AD0300A894D1 /* OurStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OurStoryViewController.swift; sourceTree = "<group>"; };
+		FF59A0A01F47B01400A894D1 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		FF8CC2AF1F465B620037F4E5 /* RaiStephWeeding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiStephWeeding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8CC2B21F465B620037F4E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF8CC2B41F465B620037F4E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF8CC2B71F465B620037F4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF8CC2B91F465B620037F4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF8CC2BC1F465B620037F4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,7 @@
 		FF8CC2C31F465B630037F4E5 /* RaiStephWeedingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiStephWeedingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8CC2C71F465B630037F4E5 /* RaiStephWeedingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiStephWeedingTests.swift; sourceTree = "<group>"; };
 		FF8CC2C91F465B630037F4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8CC2D21F4660F20037F4E5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8BB753FEABE55104D7A993 /* Pods_RaiStephWeeding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253AF922B6A0396930B8FCBF /* Pods_RaiStephWeedingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D718AFEC1BEA113309B1121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED6E48EA394B69761790984 /* Pods_RaiStephWeeding.framework */,
+				869BDE39C176EA85A8102052 /* Pods_RaiStephWeedingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D438B2787E88BCB62C0F26C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0FEFCFC1750973B33CDEE3C /* Pods-RaiStephWeeding.debug.xcconfig */,
+				BEFA7D04A67397D471AE1AAE /* Pods-RaiStephWeeding.release.xcconfig */,
+				E2E3913573EB8B4E859B22BD /* Pods-RaiStephWeedingTests.debug.xcconfig */,
+				A7A4CC9C2ADB7CF16D5FC435 /* Pods-RaiStephWeedingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF8CC2A61F465B620037F4E5 = {
 			isa = PBXGroup;
 			children = (
 				FF8CC2B11F465B620037F4E5 /* RaiStephWeeding */,
 				FF8CC2C61F465B630037F4E5 /* RaiStephWeedingTests */,
 				FF8CC2B01F465B620037F4E5 /* Products */,
+				6D438B2787E88BCB62C0F26C /* Pods */,
+				2D718AFEC1BEA113309B1121 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				FF8CC2B21F465B620037F4E5 /* AppDelegate.swift */,
-				FF8CC2B41F465B620037F4E5 /* ViewController.swift */,
 				FF8CC2B61F465B620037F4E5 /* Main.storyboard */,
 				FF8CC2B91F465B620037F4E5 /* Assets.xcassets */,
 				FF8CC2BB1F465B620037F4E5 /* LaunchScreen.storyboard */,
 				FF8CC2BE1F465B620037F4E5 /* Info.plist */,
+				FFA330731F48917700D25495 /* ViewControllers */,
 			);
 			path = RaiStephWeeding;
 			sourceTree = "<group>";
@@ -96,6 +132,16 @@
 			path = RaiStephWeedingTests;
 			sourceTree = "<group>";
 		};
+		FFA330731F48917700D25495 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF59A0A01F47B01400A894D1 /* MenuTableViewController.swift */,
+				FF8CC2D21F4660F20037F4E5 /* MainViewController.swift */,
+				FF59A09C1F47AD0300A894D1 /* OurStoryViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF8CC2CC1F465B630037F4E5 /* Build configuration list for PBXNativeTarget "RaiStephWeeding" */;
 			buildPhases = (
+				E7E49CCA7F9C71217B4E4C4A /* [CP] Check Pods Manifest.lock */,
 				FF8CC2AB1F465B620037F4E5 /* Sources */,
 				FF8CC2AC1F465B620037F4E5 /* Frameworks */,
 				FF8CC2AD1F465B620037F4E5 /* Resources */,
+				8B4B4C989D92CF0E2200C242 /* [CP] Embed Pods Frameworks */,
+				FFE200E07D34C9EDBB4583CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF8CC2CF1F465B630037F4E5 /* Build configuration list for PBXNativeTarget "RaiStephWeedingTests" */;
 			buildPhases = (
+				92A47B647259A66D47966205 /* [CP] Check Pods Manifest.lock */,
 				FF8CC2BF1F465B630037F4E5 /* Sources */,
 				FF8CC2C01F465B630037F4E5 /* Frameworks */,
 				FF8CC2C11F465B630037F4E5 /* Resources */,
+				11BBA3F2C0BD7B55DB757079 /* [CP] Embed Pods Frameworks */,
+				2AE38D0D60DD3669EAAA0C6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,12 +248,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11BBA3F2C0BD7B55DB757079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiStephWeedingTests/Pods-RaiStephWeedingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AE38D0D60DD3669EAAA0C6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiStephWeedingTests/Pods-RaiStephWeedingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4B4C989D92CF0E2200C242 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RaiStephWeeding/Pods-RaiStephWeeding-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiStephWeeding/Pods-RaiStephWeeding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A47B647259A66D47966205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaiStephWeedingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E49CCA7F9C71217B4E4C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RaiStephWeeding-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE200E07D34C9EDBB4583CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiStephWeeding/Pods-RaiStephWeeding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF8CC2AB1F465B620037F4E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8CC2B51F465B620037F4E5 /* ViewController.swift in Sources */,
+				FF8CC2D31F4660F20037F4E5 /* MainViewController.swift in Sources */,
+				FF59A09D1F47AD0300A894D1 /* OurStoryViewController.swift in Sources */,
+				FF59A0A11F47B01400A894D1 /* MenuTableViewController.swift in Sources */,
 				FF8CC2B31F465B620037F4E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +503,7 @@
 		};
 		FF8CC2CD1F465B630037F4E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FEFCFC1750973B33CDEE3C /* Pods-RaiStephWeeding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4L93U4J9QZ;
@@ -354,6 +517,7 @@
 		};
 		FF8CC2CE1F465B630037F4E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFA7D04A67397D471AE1AAE /* Pods-RaiStephWeeding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4L93U4J9QZ;
@@ -367,6 +531,7 @@
 		};
 		FF8CC2D01F465B630037F4E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3913573EB8B4E859B22BD /* Pods-RaiStephWeedingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +547,7 @@
 		};
 		FF8CC2D11F465B630037F4E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A4CC9C2ADB7CF16D5FC435 /* Pods-RaiStephWeedingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +580,7 @@
 				FF8CC2CE1F465B630037F4E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF8CC2CF1F465B630037F4E5 /* Build configuration list for PBXNativeTarget "RaiStephWeedingTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +589,7 @@
 				FF8CC2D11F465B630037F4E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
